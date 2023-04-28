@@ -3,14 +3,14 @@ import {View, Text, Image, Dimensions, TouchableOpacity} from 'react-native';
 import Icon from 'react-native-vector-icons/dist/MaterialCommunityIcons';
 import ShareImage from 'react-native-share';
 import s from '../styles/main.style';
-import {day_title} from '../Constants';
+import {day_title, interstitial_key2} from '../Constants';
 import {
   TestIds,
   InterstitialAd,
   AdEventType,
 } from 'react-native-google-mobile-ads';
 
-const IadUnitId = 'ca-app-pub-4717579333914549/1712416589';
+const IadUnitId = interstitial_key2;
 
 const interstitial = InterstitialAd.createForAdRequest(IadUnitId);
 const {width} = Dimensions.get('window');

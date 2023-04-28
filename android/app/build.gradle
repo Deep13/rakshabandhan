@@ -143,8 +143,8 @@ android {
         applicationId "com.rudelabs.raksha_bandhan_wishes"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 1
-        versionName "1.4"
+        versionCode 6
+        versionName "2.0"
         buildConfigField "boolean", "IS_NEW_ARCHITECTURE_ENABLED", isNewArchitectureEnabled().toString()
 
         if (isNewArchitectureEnabled()) {
